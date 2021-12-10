@@ -6,6 +6,9 @@
 }
 body{
     font-family: "Nunito", sans-serif;
+    background-image: url(/background/pexels-benjamin-suter-3617500.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
 }
 
 .input{
@@ -25,13 +28,15 @@ input[type="text"]{
 }
 
 input[type="submit"]{
-    height: 50px;
-    width: 600px;
+    height: 15%;
+    width: 10%;
     background: #e7e7e7; 
     font-family: "Nunito", sans-serif;
     font-weight: bold;
     border:none;
     border-radius: 2px;
+    position: relative;
+    top:10px;
 
 }
 
